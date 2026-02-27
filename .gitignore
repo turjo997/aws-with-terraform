@@ -1,0 +1,14 @@
+# AWS / SSH private keys
+*.pem
+*.key
+*.priv
+*-key.pem
+
+# Just to be extra safe (specific names)
+amazon-ec2-key.pem
+ubuntu-ec2-key.pem
+
+.terraform
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
