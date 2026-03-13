@@ -12,3 +12,4 @@ ubuntu-ec2-key.pem
 .terraform/
 .terraform.lock.hcl
 terraform.tfstate
+*.tfstate.backup

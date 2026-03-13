@@ -8,6 +8,6 @@ resource "aws_instance" "ec2" {
   user_data = var.user_data
 
   tags = {
-    Name = "terraform-instance"
+    Name = var.instance_name
   }
 }
