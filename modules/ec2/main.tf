@@ -7,6 +7,9 @@ resource "aws_instance" "ec2" {
 
   user_data = var.user_data
 
+  associate_public_ip_address = true 
+  user_data_replace_on_change = true
+  
   tags = {
     Name = var.instance_name
   }
